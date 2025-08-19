@@ -36,3 +36,28 @@ mil-extension-bot/
 ├── .gitignore
 ├── README.md                 # High-level project overview
 └── LICENSE
+
+
+backend/
+└─ app/
+   ├─ main.py
+   ├─ core/
+   │  ├─ config.py
+   │  └─ db.py
+   ├─ models/
+   │  └─ schemas.py
+   ├─ services/
+   │  └─ mil_analyzer.py
+   └─ routers/
+      ├─ analyze.py
+      ├─ feedback.py
+      ├─ share.py
+      └─ bot.py
+tests/
+├─ conftest.py
+├─ test_analyze.py
+├─ test_feedback.py
+├─ test_share.py
+└─ test_bot.py
+requirements.txt
+.env.example

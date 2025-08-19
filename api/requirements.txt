@@ -1,0 +1,15 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.1
+pydantic==2.8.2
+python-dotenv==1.0.1
+
+# Model (real mode). In tests we mock this so it won't run.
+transformers==4.44.2
+torch>=2.0.0
+
+# Supabase client (real mode). In tests we use in-memory mock.
+supabase==2.5.0
+
+# Testing
+pytest==8.3.2
+httpx==0.27.0
