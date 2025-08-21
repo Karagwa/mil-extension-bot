@@ -3,7 +3,7 @@ let analysisResults = null;
 
 // The ngrok domain changes each time you restart the ngrok command (ngrok http 8000).
 // Update this public URL each time you restart ngrok.
-const API_BASE_URL = "https://fc37703e2902.ngrok-free.app";
+const API_BASE_URL = "https://major-streets-act.loca.lt";
 
 // Listen for a message from the content script.
 chrome.runtime.onMessage.addListener(async (message, sender, sendResponse) => {

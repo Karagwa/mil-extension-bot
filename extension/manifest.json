@@ -14,7 +14,7 @@
     "storage"
   ],
   "host_permissions": [
-    "https://fc37703e2902.ngrok-free.app/"
+    "https://major-streets-act.loca.lt"
   ],
   "action": {
     "default_popup": "popup/popup.html",
