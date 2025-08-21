@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Fact-Check My Web",
+  "name": "Misinformation Analysis Extension",
   "version": "1.0",
   "description": "An extension to analyze web content for misinformation.",
   "icons": {
@@ -10,11 +10,13 @@
   },
   "permissions": [
     "activeTab",
+    "tabs",
     "scripting",
     "storage"
   ],
   "host_permissions": [
-    "https://major-streets-act.loca.lt/"
+    "https://*.loca.lt/*",
+    "https://milbot.loca.lt/*"
   ],
   "action": {
     "default_popup": "popup/popup.html",

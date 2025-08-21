@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fact-Check My Web</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <h1>Analysis Results</h1>
+    <div id="results-container">
+      <div id="loading-spinner" class="spinner"></div>
+      <div id="analysis-results" style="display: none;">
+        <p><strong>Article Title:</strong> <span id="article-title"></span></p>
+        <p><strong>Credibility Score:</strong> <span id="credibility-score"></span></p>
+        <div id="ai-warning" style="display: none;">
+          <p class="warning-text">⚠️ AI-Generated Content Detected</p>
+        </div>
+        <div id="false-links-list">
+          <h3>Potentially False Links:</h3>
+          <ul></ul>
+        </div>
+      </div>
+    </div>
+    <div class="button-group">
+      <button id="send-to-bot-btn">Send to Bot</button>
+      <button id="feedback-btn-helpful">👍 Helpful</button>
+      <button id="feedback-btn-not-helpful">👎 Not Helpful</button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
