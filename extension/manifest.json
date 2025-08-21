@@ -14,7 +14,7 @@
     "storage"
   ],
   "host_permissions": [
-    "https://major-streets-act.loca.lt"
+    "https://major-streets-act.loca.lt/"
   ],
   "action": {
     "default_popup": "popup/popup.html",
