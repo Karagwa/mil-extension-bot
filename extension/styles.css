@@ -1,0 +1,29 @@
+.misinformation-alert {
+    background-color: #ccf2ff; /* Light blueish background */
+    border: 1px solid #66aaff; /* Slightly darker blue border */
+    color: #1a75ff; /* Darker blue text */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.potentially-false-link {
+    color: #ff6666 !important; /* Vibrant red for potentially false links */
+    font-weight: bold !important;
+    text-decoration: underline !important; /* Underline to emphasize */
+    position: relative;
+    background-color: rgba(255, 102, 102, 0.05); /* Very light red background */
+    padding: 2px 4px;
+    border-bottom: 1px dashed #ff6666; /* Dashed underline in same red color */
+}
+
+.ai-generated-warning {
+    background-color: #e6ffe6; /* Light greenish background */
+    border: 1px solid #99ff99; /* Slightly darker green border */
+    color: #339933; /* Darker green text */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    font-size: 0.95em;
+}
