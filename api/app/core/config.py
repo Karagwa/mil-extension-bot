@@ -7,7 +7,7 @@ load_dotenv()
 @dataclass
 class Settings:
     app_env: str = os.getenv("APP_ENV", "dev")
-    mock_mode: bool = os.getenv("MOCK_MODE", "true").lower() == "true"
+    mock_mode: bool = os.getenv("MOCK_MODE", "true").lower() == "false"
 
     # CORS
     allowed_origins: list[str] = tuple(

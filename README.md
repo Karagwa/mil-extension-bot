@@ -21,7 +21,7 @@ mil-extension-bot/
 │
 ├── bot/                      # Gloria's module
 │   ├── telegram_bot.py       # Telegram logic
-│   ├── discord_bot.py        # Discord logic
+│   ├── discord_bot.py        # Discord logic,
 │   ├── handlers/             # Message & command handling
 │   └── requirements.txt
 │
@@ -34,6 +34,7 @@ mil-extension-bot/
 │   └── setup.md              # Local dev setup (ngrok, env vars)
 │
 ├── .gitignore
+
 ├── README.md                 # High-level project overview
 └── LICENSE
 

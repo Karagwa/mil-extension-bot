@@ -24,7 +24,7 @@ if settings.allowed_origins:
 app.state.db = get_db()
 
 # Routers
-app.include_router(analyze.router, prefix="/analyze", tags=["Analyze"])
+app.include_router(analyze.router, prefix="/analyze", tags=["Analyze"])  #
 app.include_router(feedback.router, prefix="/feedback", tags=["Feedback"])
 app.include_router(share.router,    prefix="/share",    tags=["Share"])
 app.include_router(bot.router,      prefix="/bot",      tags=["Bot"])

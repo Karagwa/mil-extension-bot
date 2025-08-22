@@ -5,11 +5,15 @@ LABELS = ["credible", "unknown", "misleading"]
 
 class Analyzer:
     def __init__(self):
-        self.model_name = "mock" if settings.mock_mode else "facebook/bart-large-mnli"
+        self.model_name = "mock" if settings.mock_mode else "ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli"
         if not settings.mock_mode:
             from transformers import pipeline
             # zero-shot gives us probabilities across our labels
-            self.clf = pipeline("zero-shot-classification", model=self.model_name)
+            self.clf = pipeline(
+                    "zero-shot-classification",
+                model="D:/huggingface_models/roberta-nli"
+                )
+
 
     def analyze(self, text: str) -> Dict:
         """
